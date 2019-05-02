@@ -1,0 +1,274 @@
+/*
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+*/
+/*Setting style sheet up*/
+*{
+    box-sizing: border-box;
+}
+body{
+    padding-top: 7.3rem;
+    background-color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+section{
+    text-align: center;
+    padding: 6rem 0;
+}
+section h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 3rem
+}
+/************** nav Bar*****************/
+.navbar-dark .navbar-brand{
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
+.nav-item{
+    padding: 0 1rem;
+    font-size: 1.3rem
+}
+/*****************Header*****************/
+header{
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    background-position: center center
+}
+header .container{
+    height: 100%;
+    color: #fff;
+    text-transform: capitalize;
+    
+}
+header .container .row{
+    height: 100%;
+}
+header .container .row .col-12{
+    text-align: center;
+    height: 50%;
+}
+header .container .row>:first-child{
+    padding-top: 2rem;
+    height: 50%;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
+header .container .row>:last-child{
+    padding-top: 12rem;
+    height: 50%;
+}
+header .container .row>:last-child h2{
+    padding-bottom: 0.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+.btn-dark{
+    font-size: 1.5rem;
+}
+/******** Service ************/
+.services{
+    background-color: #fff;
+}
+.services h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 3rem
+}
+span.icon{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    vertical-align: middle;
+    
+    background-color: #000;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+.text-icons{
+    color: #000
+}
+.fa-stack{
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+    
+}
+.caption{
+    display: block;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.portfolio-item{
+    padding: 1rem;
+}
+.portfolio-caption{
+    background-color: #fff;
+    padding: 1rem 3rem;
+    font-size: 2rem
+}
+/*********** Our team **************/
+.OurTeam{
+    background-color: #fff
+}
+.img-thumbnail{
+    max-width: 250px;
+    max-height: 250px;
+}
+.OurTeam .title{
+    padding: 3rem 2rem;
+    font-size: 1.5rem
+}
+.OurTeam .row .social{
+    margin-bottom: 4rem
+}
+.row .text-center a{
+    padding: 0.5rem;
+}
+.OurTeam .row .social .fab{
+    font-size: 1rem;
+    color: #fff;
+}
+/************** Hire us ****************/
+.HireUs h1{
+    margin-bottom: 0rem
+}
+.HireUs .title{
+    margin-bottom: 2rem;
+    font-size: 1.5rem
+}
+form .container{
+    padding: 0 3rem
+}
+/********** Footer *************/
+footer {
+    padding: 25px 0;
+    text-align: center;
+    background-color: #212529;
+    color: #fff;
+}
+
+footer span.copyright {
+    font-size: 90%;
+    line-height: 40px;
+    text-transform: none;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+footer ul.quicklinks {
+    font-size: 90%;
+    line-height: 40px;
+    margin-bottom: 0;
+    text-transform: none;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+footer ul.quicklinks a{
+    color: #fff
+  }
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #212529;
+    border-radius: 100%;
+    outline: none;
+    background-color: #fff;
+}
+/***********Media Query**************/
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    header .container .row>:first-child h1{
+        font-size: 1.8rem;
+    }
+    header .container .row>:last-child{
+        padding-top: 10rem;
+    }
+    header .container .row>:last-child h2{
+        font-size: 1.5rem;
+    }
+ }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+    header .container .row>:first-child h1{
+        font-size: 1.8rem;
+    }
+    header .container .row>:last-child{
+        padding-top: 8.6rem;
+    }
+    header .container .row>:last-child h2{
+        font-size: 1.5rem;
+    }
+ }
+
+/* Medium devices (tablets, less than 992px)*/
+@media (min-width: 992px) {
+    #navbar {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+      -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+      transition: padding-top 0.3s, padding-bottom 0.3s;
+      border: none;
+      background-color: transparent !important;
+    }
+    #navbar .navbar-brand {
+      font-size: 1.75em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    #navbar .navbar-nav .nav-item .nav-link {
+      padding: 1.1em 1em !important;
+    }
+    #navbar.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: #212529 !important;
+    }
+    #navbar.navbar-shrink .navbar-brand {
+      font-size: 1.25em;
+      padding: 0px 0;
+    }
+    .header .container .row >:first-child{
+        padding-top: 0rem
+    }
+    header .container .row>:last-child h2{
+        font-size: 1.5rem;
+        padding: 0.1rem
+    }
+    .header .btn-dark{
+        padding: 0.2rem 0.5rem;
+        font-size: 1.2rem
+    }
+  }
+
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+
+ }
+@media (min-height: 669px){
+    header .container .row>:last-child{
+        padding-top: 11rem;
+    }
+}
+@media (min-height:900px){
+    header .container .row>:last-child{
+        padding-top: 12rem;
+    }
+}
